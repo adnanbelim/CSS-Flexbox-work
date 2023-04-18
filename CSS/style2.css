@@ -1,0 +1,109 @@
+* {
+    font-family: verdana;
+    margin: 0;
+}
+
+body {
+    background: #eee;
+}
+
+.wrap {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+}
+
+/*menu based style*/
+
+nav {
+    background: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    color: #fff;
+    padding: 10px;
+    //background-color: #777;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+/*social menu base style*/
+
+
+
+a.tw{
+    background: url(../IMAGE/tw.png) no-repeat; /*we set logo of any social and other apps and sites*/
+    background-size: none;
+}
+
+a.fb{
+    background: url(../IMAGE/fb.jpg) no-repeat;
+    background-size: none;
+}
+
+.social a{
+    text-indent: -10000px; /*we set text indent.*/
+}
+
+.social{
+    max-width: 80px;
+    margin: auto;
+}
+
+
+
+/*flex styles*/
+
+
+/*
+nav ul.social{
+    display: flex;
+    //flex: 1 1 0;
+    
+}
+
+nav ul.social li{
+    //flex: 1 1 0;
+}
+
+
+nav{
+    //flex: 1 1 0;
+    //justify-content: space-between;
+}
+*/
+
+
+@media screen and (min-width: 768px) {
+
+    nav {
+
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    nav ul {
+
+        //flex-grow: 1;
+        display: flex;
+        //justify-content: center;  /*we set content in middle, left and right.*/
+
+    }
+
+    nav li {
+
+        flex: 1 1 0;
+
+    }
+}

@@ -1,0 +1,51 @@
+body{
+background: #eee;
+}
+
+.wrapper{
+
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+.flex-container{
+
+    display: flex;
+    background: #fff;
+    //float: left;
+    //flex-wrap: wrap;    /*flex-wrap used to devide our seprate in new line.*/
+    //flex-wrap: wrap-reverse;  /*same work as flex-wrap (reverse)*/
+    //flex-wrap: nowrap; 
+    //flex-flow: column; /*flow of content.*/
+    //flex-flow: row; 
+    //justify-content :start; /*it covered  only row and set content*/
+    //align-item: center; /*it covered all page and set content*/
+
+}
+
+.box{
+height: 100px;
+width: 360px;
+//flex-grow: 1;    /*flex-grow used to grow element.*/
+//flex-basis: 200px;  /*It also used as flex grow.*/ 
+
+}
+
+.one{
+    background:black;
+    //flex-shrink: 2; /*flex shrink used as flex-grow.*/ 
+}
+
+.two{
+
+    background:aqua;
+    //flex-shrink: 3;
+}
+
+.three{
+
+    background: blue;
+    //flex-shrink: 1;
+}
